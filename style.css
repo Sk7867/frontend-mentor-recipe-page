@@ -141,7 +141,7 @@ body{
 }
 
 .recipe_card_nutrition .nutrition_table .table_row{
-  border-bottom: 1px solid var(--stone150);
+  border-block-end: 1px solid var(--stone150);
 }
 
 .recipe_card_nutrition .nutrition_table .table_data{
@@ -150,10 +150,10 @@ body{
 }
 
 .recipe_card_nutrition .nutrition_table .table_row .table_data:nth-child(1){
-  padding-left: 28px;
+  padding-inline-start: 28px;
 }
 .recipe_card_nutrition .nutrition_table .table_row .table_data:nth-child(2){
-  padding-left: 0;
+  padding-inline-start: 0;
   font-weight: var(--fontWeight700);
   color: var(--brown800);
   font-family: var(--fontOutfit);
